@@ -1,0 +1,123 @@
+/* Uber button */
+.uber-button {
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+/* Amazon button */
+.amazon-button {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  border: none;
+  cursor: pointer;
+  padding: 10px 50px;
+  border-radius: 40px;
+}
+
+/* GitHub button */
+.github-button {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Bootstrap 'Get Started' button */
+.bootstrap-button-get-started {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Bootstrap 'Download' button */
+.bootstrap-button-download {
+  background-color: white;
+  color: rgb(109, 117, 125);
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(109, 117, 125);
+  cursor: pointer;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+/* LinkedIn 'Apply' button */
+.linkedin-button-apply {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 14px;
+  border-radius: 40px;
+  font-weight: bold;
+}
+
+/* LinkedIn 'Save' button */
+.linkedin-button-save {
+  background-color: white;
+  color: rgb(10, 102, 194);
+  border-radius: 40px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(10, 102, 194);
+  cursor: pointer;
+  padding: 10px 14px;
+  font-weight: bold;
+}
+
+/* Exercise 2f - Back to Amazon link */
+.ex2f-back-to-amazon {
+  color: rgb(0, 113, 133);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Exercise 2f - Product name */
+.ex2f-product-name {
+  color: black;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* Exercise 2f - Price */
+.ex2f-price {
+  color: rgb(0, 118, 0);
+  font-size: 16px;
+}
+
+/* Exercise 2f - Delivery information */
+.ex2f-delivery {
+  color: black;
+  font-size: 14px;
+}
+
+/* Exercise 2f - Add to Cart button */
+.ex2f-button-add-to-cart {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  border: none;
+  cursor: pointer;
+  padding: 10px 30px;
+  border-radius: 40px;
+}
+
+/* Exercise 2f - Buy Now button */
+.ex2f-button-buy-now {
+  background-color: rgb(255, 164, 28);
+  color: black;
+  border: none;
+  cursor: pointer;
+  padding: 10px 30px;
+  border-radius: 40px;
+}
