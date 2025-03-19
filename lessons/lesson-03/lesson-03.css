@@ -1,0 +1,176 @@
+/* Uber button */
+.uber-button {
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: opacity 0.15s;
+}
+.uber-button:hover {
+  opacity: 0.8;
+}
+
+/* Amazon button */
+.amazon-button {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  border: none;
+  cursor: pointer;
+  padding: 10px 50px;
+  border-radius: 40px;
+  transition: background-color 0.15s;
+}
+.amazon-button:hover {
+  background-color: rgba(255, 216, 20, 0.8);
+}
+
+/* GitHub button */
+.github-button {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: box-shadow 0.15s;
+}
+.github-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+/* Bootstrap 'Get Started' button */
+.bootstrap-button-get-started {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.15s, color 0.15s;
+}
+.bootstrap-button-get-started:hover {
+  background-color: rgb(100, 61, 158);
+  color: white;
+}
+
+/* Bootstrap 'Download' button */
+.bootstrap-button-download {
+  background-color: white;
+  color: rgb(109, 117, 125);
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(109, 117, 125);
+  cursor: pointer;
+  padding: 10px 20px;
+  font-weight: bold;
+  transition: background-color 0.15s, color 0.15s;
+}
+.bootstrap-button-download:hover {
+  background-color: rgb(109, 117, 125);
+  color: white;
+}
+
+/* LinkedIn 'Apply' button */
+.linkedin-button-apply {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 14px;
+  border-radius: 40px;
+  font-weight: bold;
+  transition: background-color 0.15s, border-width 0.15s;
+}
+.linkedin-button-apply:hover {
+  background-color: rgb(8, 82, 156);
+  border-width: 2px;
+}
+
+/* LinkedIn 'Save' button */
+.linkedin-button-save {
+  background-color: white;
+  color: rgb(10, 102, 194);
+  border-radius: 40px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(10, 102, 194);
+  cursor: pointer;
+  padding: 10px 14px;
+  font-weight: bold;
+  transition: background-color 0.15s, border-width 0.15s;
+}
+.linkedin-button-save:hover {
+  background-color: rgb(235, 245, 255);
+  border-width: 2px;
+}
+
+/* Exercise 3f - Back to Amazon link */
+.ex3f-back-to-amazon {
+  color: rgb(0, 113, 133);
+  text-decoration: underline;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+.ex3f-back-to-amazon:hover {
+  color: rgb(212, 128, 1);
+}
+.ex3f-back-to-amazon:active {
+  color: rgba(212, 128, 1, 0.65);
+}
+
+/* Exercise 3f - Product name */
+.ex3f-product-name {
+  color: black;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* Exercise 3f - Price */
+.ex3f-price {
+  color: rgb(0, 118, 0);
+  font-size: 16px;
+}
+
+/* Exercise 3f - Delivery information */
+.ex3f-delivery {
+  color: black;
+  font-size: 14px;
+}
+
+/* Exercise 3f - Add to Cart button */
+.ex3f-button-add-to-cart {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  border: none;
+  cursor: pointer;
+  padding: 10px 30px;
+  border-radius: 40px;
+  transition: background-color 0.15s, transform 0.1s;
+}
+.ex3f-button-add-to-cart:hover {
+  background-color: rgba(255, 216, 20, 0.8);
+}
+.ex3f-button-add-to-cart:active {
+  transform: scale(0.95);
+}
+
+/* Exercise 3f - Buy Now button */
+.ex3f-button-buy-now {
+  background-color: rgb(255, 164, 28);
+  color: black;
+  border: none;
+  cursor: pointer;
+  padding: 10px 30px;
+  border-radius: 40px;
+  transition: background-color 0.15s, transform 0.1s;
+}
+.ex3f-button-buy-now:hover {
+  background-color: rgba(255, 164, 28, 0.8);
+}
+.ex3f-button-buy-now:active {
+  transform: scale(0.95);
+}
