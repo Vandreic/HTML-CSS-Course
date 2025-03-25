@@ -174,3 +174,223 @@
 .ex3f-button-buy-now:active {
   transform: scale(0.95);
 }
+
+/* Advanced Button Styles */
+.advanced-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.primary-button {
+  background-color: rgb(0, 123, 255);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.primary-button:hover {
+  background-color: rgb(0, 105, 217);
+}
+
+.secondary-button {
+  background-color: rgb(108, 117, 125);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.secondary-button:hover {
+  background-color: rgb(90, 98, 105);
+}
+
+.danger-button {
+  background-color: rgb(220, 53, 69);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.danger-button:hover {
+  background-color: rgb(200, 35, 51);
+}
+
+.outline-button {
+  background-color: transparent;
+  color: rgb(108, 117, 125);
+  border: 2px solid rgb(108, 117, 125);
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+.outline-button:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+
+.rounded-button {
+  background-color: rgb(40, 167, 69);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.rounded-button:hover {
+  background-color: rgb(30, 140, 55);
+}
+
+.icon-button {
+  background-color: rgb(23, 162, 184);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: background-color 0.15s;
+}
+.icon-button:hover {
+  background-color: rgb(19, 140, 160);
+}
+
+.gradient-button {
+  background: linear-gradient(45deg, rgb(255, 0, 150), rgb(255, 102, 0));
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.gradient-button:hover {
+  opacity: 0.9;
+}
+
+.disabled-button {
+  background-color: rgb(108, 117, 125);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: not-allowed;
+  opacity: 0.65;
+}
+
+/* Pulse Button */
+.pulse-button {
+  background-color: rgb(0, 123, 255);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+/* Slide Button */
+.slide-button {
+  background-color: rgb(40, 167, 69);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+.slide-button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: left 0.3s;
+}
+.slide-button:hover::after {
+  left: 0;
+}
+
+/* Flip Button */
+.flip-button {
+  background-color: rgb(220, 53, 69);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  perspective: 1000px;
+}
+.flip-button:hover {
+  transform: rotateY(180deg);
+  transition: transform 0.6s;
+}
+
+/* Glow Button */
+.glow-button {
+  background-color: rgb(23, 162, 184);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgb(23, 162, 184);
+  transition: box-shadow 0.3s;
+}
+.glow-button:hover {
+  box-shadow: 0 0 20px rgb(23, 162, 184);
+}
+
+/* Ripple Button */
+.ripple-button {
+  background-color: rgb(255, 102, 0);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.ripple-button:active::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  transform: scale(0);
+  opacity: 1;
+  animation: ripple-effect 0.6s ease-out;
+  pointer-events: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+}
+@keyframes ripple-effect {
+  to {
+    transform: translate(-50%, -50%) scale(4);
+    opacity: 0;
+  }
+}
