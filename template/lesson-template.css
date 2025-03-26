@@ -1,0 +1,14 @@
+/* Example button */
+.example-button {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.15s;
+}
+.example-button:hover {
+  background-color: rgb(30, 140, 55);
+}
