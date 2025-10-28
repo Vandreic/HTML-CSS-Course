@@ -1,5 +1,5 @@
-/* Uber button */
-.uber-button {
+/* #region Exercise 3a */
+.ex3a-button {
   background-color: black;
   color: white;
   border: none;
@@ -7,12 +7,13 @@
   padding: 10px 20px;
   transition: opacity 0.15s;
 }
-.uber-button:hover {
+.ex3a-button:hover {
   opacity: 0.8;
 }
+/* #endregion Exercise 3a */
 
-/* Amazon button */
-.amazon-button {
+/* #region Exercise 3b */
+.ex3b-button {
   background-color: rgb(255, 216, 20);
   color: black;
   border: none;
@@ -21,12 +22,13 @@
   border-radius: 40px;
   transition: background-color 0.15s;
 }
-.amazon-button:hover {
+.ex3b-button:hover {
   background-color: rgba(255, 216, 20, 0.8);
 }
+/* #endregion Exercise 3b */
 
-/* GitHub button */
-.github-button {
+/* #region Exercise 3c */
+.ex3c-button {
   background-color: rgb(46, 164, 79);
   color: white;
   border: none;
@@ -36,12 +38,13 @@
   font-weight: bold;
   transition: box-shadow 0.15s;
 }
-.github-button:hover {
+.ex3c-button:hover {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 }
+/* #endregion Exercise 3c */
 
-/* Bootstrap 'Get Started' button */
-.bootstrap-button-get-started {
+/* #region Exercise 3d */
+.ex3d-button-get-started {
   background-color: rgb(121, 82, 179);
   color: white;
   border: none;
@@ -51,13 +54,12 @@
   font-weight: bold;
   transition: background-color 0.15s, color 0.15s;
 }
-.bootstrap-button-get-started:hover {
+.ex3d-button-get-started:hover {
   background-color: rgb(100, 61, 158);
   color: white;
 }
 
-/* Bootstrap 'Download' button */
-.bootstrap-button-download {
+.ex3d-button-download {
   background-color: white;
   color: rgb(109, 117, 125);
   border-radius: 5px;
@@ -69,13 +71,14 @@
   font-weight: bold;
   transition: background-color 0.15s, color 0.15s;
 }
-.bootstrap-button-download:hover {
+.ex3d-button-download:hover {
   background-color: rgb(109, 117, 125);
   color: white;
 }
+/* #endregion Exercise 3d */
 
-/* LinkedIn 'Apply' button */
-.linkedin-button-apply {
+/* #region Exercise 3e */
+.ex3e-button-apply {
   background-color: rgb(10, 102, 194);
   color: white;
   border: none;
@@ -85,13 +88,12 @@
   font-weight: bold;
   transition: background-color 0.15s, border-width 0.15s;
 }
-.linkedin-button-apply:hover {
+.ex3e-button-apply:hover {
   background-color: rgb(8, 82, 156);
   border-width: 2px;
 }
 
-/* LinkedIn 'Save' button */
-.linkedin-button-save {
+.ex3e-button-save {
   background-color: white;
   color: rgb(10, 102, 194);
   border-radius: 40px;
@@ -103,12 +105,13 @@
   font-weight: bold;
   transition: background-color 0.15s, border-width 0.15s;
 }
-.linkedin-button-save:hover {
+.ex3e-button-save:hover {
   background-color: rgb(235, 245, 255);
   border-width: 2px;
 }
+/* #endregion Exercise 3e */
 
-/* Exercise 3f - Back to Amazon link */
+/* #region Exercise 3f */
 .ex3f-back-to-amazon {
   color: rgb(0, 113, 133);
   text-decoration: underline;
@@ -122,26 +125,22 @@
   color: rgba(212, 128, 1, 0.65);
 }
 
-/* Exercise 3f - Product name */
 .ex3f-product-name {
   color: black;
   font-size: 32px;
   font-weight: bold;
 }
 
-/* Exercise 3f - Price */
 .ex3f-price {
   color: rgb(0, 118, 0);
   font-size: 16px;
 }
 
-/* Exercise 3f - Delivery information */
 .ex3f-delivery {
   color: black;
   font-size: 14px;
 }
 
-/* Exercise 3f - Add to Cart button */
 .ex3f-button-add-to-cart {
   background-color: rgb(255, 216, 20);
   color: black;
@@ -158,7 +157,6 @@
   transform: scale(0.95);
 }
 
-/* Exercise 3f - Buy Now button */
 .ex3f-button-buy-now {
   background-color: rgb(255, 164, 28);
   color: black;
@@ -174,223 +172,4 @@
 .ex3f-button-buy-now:active {
   transform: scale(0.95);
 }
-
-/* Advanced Button Styles */
-.advanced-buttons {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.primary-button {
-  background-color: rgb(0, 123, 255);
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.15s;
-}
-.primary-button:hover {
-  background-color: rgb(0, 105, 217);
-}
-
-.secondary-button {
-  background-color: rgb(108, 117, 125);
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.15s;
-}
-.secondary-button:hover {
-  background-color: rgb(90, 98, 105);
-}
-
-.danger-button {
-  background-color: rgb(220, 53, 69);
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.15s;
-}
-.danger-button:hover {
-  background-color: rgb(200, 35, 51);
-}
-
-.outline-button {
-  background-color: transparent;
-  color: rgb(108, 117, 125);
-  border: 2px solid rgb(108, 117, 125);
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.15s, color 0.15s;
-}
-.outline-button:hover {
-  background-color: rgb(108, 117, 125);
-  color: white;
-}
-
-.rounded-button {
-  background-color: rgb(40, 167, 69);
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: background-color 0.15s;
-}
-.rounded-button:hover {
-  background-color: rgb(30, 140, 55);
-}
-
-.icon-button {
-  background-color: rgb(23, 162, 184);
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  transition: background-color 0.15s;
-}
-.icon-button:hover {
-  background-color: rgb(19, 140, 160);
-}
-
-.gradient-button {
-  background: linear-gradient(45deg, rgb(255, 0, 150), rgb(255, 102, 0));
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: opacity 0.15s;
-}
-.gradient-button:hover {
-  opacity: 0.9;
-}
-
-.disabled-button {
-  background-color: rgb(108, 117, 125);
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: not-allowed;
-  opacity: 0.65;
-}
-
-/* Pulse Button */
-.pulse-button {
-  background-color: rgb(0, 123, 255);
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  animation: pulse 2s infinite;
-}
-@keyframes pulse {
-  0%,
-  100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-}
-
-/* Slide Button */
-.slide-button {
-  background-color: rgb(40, 167, 69);
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  overflow: hidden;
-  position: relative;
-}
-.slide-button::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.1);
-  transition: left 0.3s;
-}
-.slide-button:hover::after {
-  left: 0;
-}
-
-/* Flip Button */
-.flip-button {
-  background-color: rgb(220, 53, 69);
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  perspective: 1000px;
-}
-.flip-button:hover {
-  transform: rotateY(180deg);
-  transition: transform 0.6s;
-}
-
-/* Glow Button */
-.glow-button {
-  background-color: rgb(23, 162, 184);
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  box-shadow: 0 0 5px rgb(23, 162, 184);
-  transition: box-shadow 0.3s;
-}
-.glow-button:hover {
-  box-shadow: 0 0 20px rgb(23, 162, 184);
-}
-
-/* Ripple Button */
-.ripple-button {
-  background-color: rgb(255, 102, 0);
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-}
-.ripple-button:active::after {
-  content: "";
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  background: rgba(255, 255, 255, 0.5);
-  border-radius: 50%;
-  transform: scale(0);
-  opacity: 1;
-  animation: ripple-effect 0.6s ease-out;
-  pointer-events: none;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(0);
-}
-@keyframes ripple-effect {
-  to {
-    transform: translate(-50%, -50%) scale(4);
-    opacity: 0;
-  }
-}
+/* #endregion Exercise 3f */

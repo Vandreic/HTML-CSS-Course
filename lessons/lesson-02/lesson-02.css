@@ -1,14 +1,15 @@
-/* Uber button */
-.uber-button {
+/* #region Exercise 2a */
+.ex2a-button {
   background-color: black;
   color: white;
   border: none;
   cursor: pointer;
   padding: 10px 20px;
 }
+/* #endregion Exercise 2a */
 
-/* Amazon button */
-.amazon-button {
+/* #region Exercise 2b */
+.ex2b-button {
   background-color: rgb(255, 216, 20);
   color: black;
   border: none;
@@ -16,9 +17,10 @@
   padding: 10px 50px;
   border-radius: 40px;
 }
+/* #endregion Exercise 2b */
 
-/* GitHub button */
-.github-button {
+/* #region Exercise 2c */
+.ex2c-button {
   background-color: rgb(46, 164, 79);
   color: white;
   border: none;
@@ -27,9 +29,10 @@
   border-radius: 5px;
   font-weight: bold;
 }
+/* #endregion Exercise 2c */
 
-/* Bootstrap 'Get Started' button */
-.bootstrap-button-get-started {
+/* #region Exercise 2d */
+.ex2d-button-get-started {
   background-color: rgb(121, 82, 179);
   color: white;
   border: none;
@@ -39,8 +42,7 @@
   font-weight: bold;
 }
 
-/* Bootstrap 'Download' button */
-.bootstrap-button-download {
+.ex2d-button-download {
   background-color: white;
   color: rgb(109, 117, 125);
   border-radius: 5px;
@@ -51,9 +53,10 @@
   padding: 10px 20px;
   font-weight: bold;
 }
+/* #endregion Exercise 2d */
 
-/* LinkedIn 'Apply' button */
-.linkedin-button-apply {
+/* #region Exercise 2e */
+.ex2e-button-apply {
   background-color: rgb(10, 102, 194);
   color: white;
   border: none;
@@ -63,8 +66,7 @@
   font-weight: bold;
 }
 
-/* LinkedIn 'Save' button */
-.linkedin-button-save {
+.ex2e-button-save {
   background-color: white;
   color: rgb(10, 102, 194);
   border-radius: 40px;
@@ -75,34 +77,31 @@
   padding: 10px 14px;
   font-weight: bold;
 }
+/* #endregion Exercise 2e */
 
-/* Exercise 2f - Back to Amazon link */
+/* #region Exercise 2f */
 .ex2f-back-to-amazon {
   color: rgb(0, 113, 133);
   text-decoration: underline;
   cursor: pointer;
 }
 
-/* Exercise 2f - Product name */
 .ex2f-product-name {
   color: black;
   font-size: 32px;
   font-weight: bold;
 }
 
-/* Exercise 2f - Price */
 .ex2f-price {
   color: rgb(0, 118, 0);
   font-size: 16px;
 }
 
-/* Exercise 2f - Delivery information */
 .ex2f-delivery {
   color: black;
   font-size: 14px;
 }
 
-/* Exercise 2f - Add to Cart button */
 .ex2f-button-add-to-cart {
   background-color: rgb(255, 216, 20);
   color: black;
@@ -112,7 +111,6 @@
   border-radius: 40px;
 }
 
-/* Exercise 2f - Buy Now button */
 .ex2f-button-buy-now {
   background-color: rgb(255, 164, 28);
   color: black;
@@ -121,3 +119,4 @@
   padding: 10px 30px;
   border-radius: 40px;
 }
+/* #endregion Exercise 2f */
