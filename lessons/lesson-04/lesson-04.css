@@ -1,0 +1,244 @@
+/* #region Exercise 4a */
+.ex4a-button {
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  padding: 10px 20px;
+}
+.ex4a-button:hover {
+  opacity: 0.8;
+}
+/* #endregion Exercise 4a */
+
+/* #region Exercise 4b */
+.ex4b-button {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.15s;
+  padding: 10px 50px;
+  border-radius: 40px;
+}
+.ex4b-button:hover {
+  background-color: rgba(255, 216, 20, 0.8);
+}
+/* #endregion Exercise 4b */
+
+/* #region Exercise 4c */
+.ex4c-button {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: box-shadow 0.15s;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.ex4c-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+/* #endregion Exercise 4c */
+
+/* #region Exercise 4d */
+.ex4d-button-get-started {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.15s, color 0.15s;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.ex4d-button-get-started:hover {
+  background-color: rgb(100, 61, 158);
+  color: white;
+}
+
+.ex4d-button-download {
+  background-color: white;
+  color: rgb(109, 117, 125);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(109, 117, 125);
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.15s, color 0.15s;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.ex4d-button-download:hover {
+  background-color: rgb(109, 117, 125);
+  color: white;
+}
+/* #endregion Exercise 4d */
+
+/* #region Exercise 4e */
+.ex4e-button-apply {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.15s, border-width 0.15s;
+  padding: 10px 14px;
+  border-radius: 40px;
+}
+.ex4e-button-apply:hover {
+  background-color: rgb(8, 82, 156);
+  border-width: 2px;
+}
+
+.ex4e-button-save {
+  background-color: white;
+  color: rgb(10, 102, 194);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(10, 102, 194);
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.15s, border-width 0.15s;
+  padding: 10px 14px;
+  border-radius: 40px;
+}
+.ex4e-button-save:hover {
+  background-color: rgb(235, 245, 255);
+  border-width: 2px;
+}
+/* #endregion Exercise 4e */
+
+/* #region Exercise 4f */
+.ex4f-button {
+  background-color: rgb(29, 161, 242);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.15s, box-shadow 0.15s;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+.ex4f-button:hover {
+  background-color: rgb(26, 145, 218);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+/* #endregion Exercise 4f */
+
+/* #region Exercise 4g */
+.ex4g-button {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.15s, box-shadow 0.15s;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.ex4g-button:hover {
+  background-color: rgb(204, 0, 0);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+/* #endregion Exercise 4g */
+
+/* #region Exercise 4h */
+/* 'Back' & 'Next' button */
+.ex4h-back-button,
+.ex4h-next-button {
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.15s, box-shadow 0.15s;
+  padding: 10px 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.ex4h-back-button:hover,
+.ex4h-next-button:hover {
+  background-color: lightslategray;
+}
+
+/* 'Number' buttons */
+.ex4h-button-1,
+.ex4h-button-2,
+.ex4h-button-3,
+.ex4h-button-4,
+.ex4h-button-5 {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  color: rgb(78, 40, 136);
+  font-size: 16px;
+}
+.ex4h-button-1:hover,
+.ex4h-button-2:hover,
+.ex4h-button-3:hover,
+.ex4h-button-4:hover,
+.ex4h-button-5:hover {
+  color: rgb(37, 19, 65);
+  font-size: 18px;
+}
+/* #endregion Exercise 4h */
+
+/* #region Exercise 4i */
+.ex4i-button {
+  color: white;
+  background-color: rgb(46, 164, 79);
+  border: none;
+  padding: 10px 30px;
+  transition: padding 0.35s;
+  cursor: pointer;
+}
+.ex4i-button:hover {
+  background-color: rgb(44, 126, 67);
+  padding: 20px 45px;
+  transition: padding 0.35s;
+}
+/* #endregion Exercise 4i */
+
+/* #region Exercise 4j */
+.ex4j-button {
+  color: white;
+  background-color: rgb(46, 164, 79);
+  border: none;
+  cursor: pointer;
+  padding: 10px 30px;
+  transition: margin 0.1s;
+}
+.ex4j-button:active {
+  background-color: rgb(46, 164, 79);
+  margin-top: 3px;
+  margin-left: 3px;
+}
+/* #endregion Exercise 4j */
+
+/* #region Exercise 4k */
+.ex4k-button-1,
+.ex4k-button-2,
+.ex4k-button-3 {
+  font-size: 16px;
+  color: white;
+  background-color: rgb(46, 164, 79);
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: padding 0.25s, margin 0.25s;
+}
+.ex4k-button-1:hover,
+.ex4k-button-2:hover,
+.ex4k-button-3:hover {
+  background-color: rgb(44, 126, 67);
+  padding: 10px 40px;
+  margin-left: 0;
+  margin-right: 0;
+}
+/* #endregion Exercise 4k */

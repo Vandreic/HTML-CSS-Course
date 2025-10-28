@@ -1,0 +1,260 @@
+/* #region Exercise 5a */
+.ex5a-text {
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 28px;
+  color: black;
+}
+/* #endregion Exercise 5a */
+
+/* #region Exercise 5b */
+.ex5b-text-01 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 28px;
+  color: black;
+}
+
+.ex5b-text-02 {
+  font-family: Arial;
+  font-style: italic;
+  font-size: 18px;
+  color: red;
+}
+/* #endregion Exercise 5b */
+
+/* #region Exercise 5c */
+.ex5c-text-01 {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 300px;
+}
+
+.ex5c-text-02 {
+  font-family: Verdana;
+  font-size: 20px;
+  color: gray;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 300px;
+}
+
+.ex5c-text-03 {
+  font-family: Verdana;
+  font-size: 18px;
+  color: black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 300px;
+}
+
+.ex5c-button {
+  font-family: Verdana;
+  font-size: 18px;
+  background-color: green;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  padding: 6px 20px;
+  cursor: pointer;
+}
+.ex5c-button:hover {
+  background-color: darkgreen;
+}
+/* #endregion Exercise 5c */
+
+/* #region Exercise 5d */
+.ex5d-text-01 {
+  font-family: Arial;
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.ex5d-text-02 {
+  font-family: Arial;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+}
+
+.ex5d-text-03 {
+  /*FIXME: Fix hover area of button*/
+  font-family: Arial;
+  font-size: 18px;
+  color: blue;
+  text-align: center;
+  padding: 0px;
+  border: none;
+  cursor: pointer;
+}
+.ex5d-text-03:hover {
+  text-decoration: underline;
+}
+/* #endregion Exercise 5d */
+
+/* #region Exercise 5e */
+.ex5e-text-01 {
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+  color: orange;
+  text-align: center;
+}
+
+.ex5e-text-02 {
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.ex5e-text-03 {
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.ex5e-text-04 {
+  font-family: Arial;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+}
+
+.ex5e-button {
+  /* EXTRA: Center text */
+  display: block;
+  width: max-content;
+  margin: 0 auto;
+  text-align: center;
+  /* EXTRA: Center text */
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(0, 113, 227);
+  border: none;
+  border-radius: 30px;
+  padding: 7px 15px;
+  cursor: pointer;
+}
+.ex5e-button:hover {
+  background-color: rgb(40, 40, 214);
+}
+
+.ex5e-text-05 {
+  /* EXTRA: Center text */
+  display: block;
+  width: max-content;
+  margin: 0 auto;
+  text-align: center;
+  /* EXTRA: Center text */
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(0, 113, 227);
+  padding: 7px 15px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.ex5e-text-05:hover {
+  background-color: rgb(40, 40, 214);
+}
+/* #endregion Exercise 5e */
+
+/* #region Exercise 5f */
+.ex5f-text-01-01 {
+  font-family: Arial;
+  font-size: 28px;
+  color: black;
+  margin: 0 0 6px; /* top, right/left, bottom */
+}
+
+.ex5f-text-01-02 {
+  font-family: Arial;
+  font-size: 18px;
+  color: gray;
+  margin: 0 0 6px; /* top, right/left, bottom */
+}
+
+.ex5f-text-02 {
+  font-family: Arial;
+  font-size: 18px;
+  color: green;
+  margin: 0 0 6px; /* top, right/left, bottom */
+}
+
+.ex5f-text-03-01 {
+  font-family: Arial;
+  font-size: 18px;
+  color: gray;
+  margin: 0;
+}
+
+.ex5f-text-03-02 {
+  font-family: Arial;
+  font-size: 18px;
+  color: red;
+  margin: 0;
+}
+/* #endregion Exercise 5f */
+
+/* #region Exercise 5g */
+.ex5g-text-01-01 {
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  margin: 0 0 4px; /* top, right/left, bottom */
+  width: 600px;
+}
+
+.ex5g-text-01-02 {
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: normal;
+  color: gray;
+  cursor: pointer;
+  margin: 0 0 4px; /* top, right/left, bottom */
+  width: 600px;
+}
+.ex5g-text-01-02:hover {
+  text-decoration: underline;
+}
+
+.ex5g-text-02 {
+  font-family: Arial;
+  font-size: 18px;
+  color: black;
+  margin: 0 0 8px; /* top, right/left, bottom */
+  width: 600px;
+}
+
+.ex5g-text-03-01 {
+  font-family: Arial;
+  font-size: 18px;
+  color: black;
+  width: 600px;
+}
+
+.ex5g-text-03-02 {
+  font-family: Arial;
+  font-size: 18px;
+  color: rgb(0, 110, 255);
+  cursor: pointer;
+  width: 600px;
+}
+.ex5g-text-03-02:hover {
+  text-decoration: underline;
+}
+/* #endregion Exercise 5g */

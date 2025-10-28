@@ -8,8 +8,8 @@ The website is hosted on GitHub Pages. Click [here](https://vandreic.github.io/H
 - [x] 1. HTML Basics
 - [x] 2. CSS Basics
 - [x] 3. Hovers, Transitions, Shadows
-- [ ] 4. Chrome DevTools & CSS Box Model
-- [ ] 5. Text Styles
+- [x] 4. Chrome DevTools & CSS Box Model
+- [x] 5. Text Styles
 - [ ] 6. The HTML Structure
 - [ ] 7. Images and Text Boxes
 - [ ] 8. CSS Display Property
