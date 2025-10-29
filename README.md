@@ -10,7 +10,7 @@ The website is hosted on GitHub Pages. Click [here](https://vandreic.github.io/H
 - [x] 3. Hovers, Transitions, Shadows
 - [x] 4. Chrome DevTools & CSS Box Model
 - [x] 5. Text Styles
-- [ ] 6. The HTML Structure
+- [x] 6. The HTML Structure
 - [ ] 7. Images and Text Boxes
 - [ ] 8. CSS Display Property
 - [ ] 9. The div Element

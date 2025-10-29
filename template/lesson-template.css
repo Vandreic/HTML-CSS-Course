@@ -1,14 +1,20 @@
-/* Example button */
-.example-button {
-  background-color: rgb(46, 164, 79);
+/* #region: Exercise 0a */
+.ex0a-text {
+  font-family: Arial;
+  font-size: 18px;
+  color: white;
+}
+
+.ex0a-button {
+  background-color: green;
   color: white;
   border: none;
-  cursor: pointer;
+  border-radius: 40px;
   padding: 10px 20px;
-  border-radius: 5px;
-  font-weight: bold;
-  transition: background-color 0.15s;
+  font-size: 16px;
+  cursor: pointer;
 }
-.example-button:hover {
-  background-color: rgb(30, 140, 55);
+.ex0a-button:hover {
+  background-color: darkgreen;
 }
+/* #endregion: Exercise 0a */

@@ -1,0 +1,76 @@
+/* #region: Exercise Done Text */
+.exercise-done {
+  font-family: "Montserrat", system-ui;
+  font-size: 18px;
+  font-weight: 700;
+  color: green;
+}
+/* #endregion: Exercise Done Text */
+
+/* #region: Exercise 6a */
+.ex6a-text-01-01 {
+  font-family: "Montserrat", system-ui;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+
+.ex6a-text-01-02 {
+  font-family: "Montserrat", system-ui;
+  font-size: 18px;
+  font-weight: 700;
+  color: gray;
+}
+/* #endregion: Exercise 6a */
+
+/* #region: Exercise 6b */
+.ex6b-text {
+  font-family: "Montserrat", system-ui;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+/* #endregion: Exercise 6b */
+
+/* #region: Exercise 6c */
+.ex6c-text-01-01 {
+  font-family: "Montserrat", system-ui;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+
+.ex6c-text-01-02 {
+  font-family: "Montserrat", system-ui;
+  font-size: 18px;
+  font-weight: 700;
+  color: gray;
+}
+/* #endregion: Exercise 6c */
+
+/* #region: Exercise 6d */
+.ex6d-text-01 {
+  font-family: "Montserrat", system-ui;
+  font-size: 32px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+}
+
+.ex6d-text-02-01 {
+  font-family: "Montserrat", system-ui;
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+}
+
+.ex6d-text-02-02 {
+  font-family: "Montserrat", system-ui;
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+}
+/* #endregion: Exercise 6d */
