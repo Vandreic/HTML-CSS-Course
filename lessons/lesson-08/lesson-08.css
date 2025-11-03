@@ -1,0 +1,145 @@
+/* #region: Global Styles */
+.p,
+.input,
+.button {
+  font-family: Arial;
+  font-size: 14px;
+}
+/* #endregion: Global Styles */
+
+/* #region: Exercise 8a */
+.ex8a-input-01,
+.ex8a-input-02 {
+  display: block;
+  margin: 6px 0px;
+}
+/* #endregion: Exercise 8a */
+
+/* #region: Exercise 8b */
+.ex8b-text {
+  display: inline-block;
+  vertical-align: middle;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.ex8b-button-01,
+.ex8b-button-02 {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px 2px;
+  width: 40px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  background-color: rgb(240, 240, 240);
+  color: black;
+  cursor: pointer;
+}
+.ex8b-button-01:hover,
+.ex8b-button-02:hover {
+  background-color: rgb(185, 185, 185);
+}
+/* #endregion: Exercise 8b */
+
+/* #region: Exercise 8c */
+.ex8c-img {
+  display: block;
+  width: 200px;
+  margin-left: 150px;
+  margin-bottom: 10px;
+}
+
+.ex8c-input {
+  width: 500px;
+  border-radius: 30px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  padding: 5px 10px;
+  display: block;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+/* #endregion: Exercise 8c */
+
+/* #region: Exercise 8d */
+.ex8d-input-01,
+.ex8d-input-02,
+.ex8d-input-03 {
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  border-radius: 6px;
+  color: black;
+  margin: 4px 0px;
+  padding: 5px 10px;
+}
+
+.ex8d-input-01,
+.ex8d-input-02 {
+  display: inline-block;
+  width: 100px;
+}
+
+.ex8d-input-03 {
+  display: block;
+  width: 226px;
+}
+
+.ex8d-button {
+  display: block;
+  width: 248px;
+  height: 30px;
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+}
+.ex8d-button:hover {
+  background-color: rgb(8, 82, 156);
+}
+/* #endregion: Exercise 8d */
+
+/* #region: Exercise 8e */
+.ex8e-text {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.ex8e-input-01,
+.ex8e-input-02 {
+  display: block;
+  width: 300px;
+  margin: 10px 0px;
+  padding: 5px 10px;
+  border-style: none;
+  background-color: lightgray;
+  color: black;
+}
+
+.ex8e-button-01 {
+  background-color: black;
+  color: white;
+}
+
+.ex8e-button-02 {
+  background-color: lightgray;
+  color: black;
+}
+
+.ex8e-button-01,
+.ex8e-button-02 {
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-right: 10px;
+  transition: transform 0.1s;
+}
+.ex8e-button-01:hover,
+.ex8e-button-02:hover {
+  transform: scale(1.05);
+}
+/* #endregion: Exercise 8e */

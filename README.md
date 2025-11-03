@@ -11,8 +11,8 @@ The website is hosted on GitHub Pages. Click [here](https://vandreic.github.io/H
 - [x] 4. Chrome DevTools & CSS Box Model
 - [x] 5. Text Styles
 - [x] 6. The HTML Structure
-- [ ] 7. Images and Text Boxes
-- [ ] 8. CSS Display Property
+- [x] 7. Images and Text Boxes
+- [x] 8. CSS Display Property
 - [ ] 9. The div Element
 - [ ] 10. Nested Layouts Technique
 - [ ] 11. CSS Grid

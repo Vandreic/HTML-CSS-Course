@@ -1,0 +1,133 @@
+/* #region: Global Styles */
+.p,
+.input,
+.button {
+  font-family: Arial;
+  font-size: 14px;
+}
+/* #endregion: Global Styles */
+
+/* #region: Exercise 7a */
+.ex7a-img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 15px;
+}
+/* #endregion: Exercise 7a */
+
+/* #region: Exercise 7b */
+.ex7b-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+}
+/* #endregion: Exercise 7b */
+
+/* #region: Exercise 7c */
+.ex7c-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 500px;
+}
+/* #endregion: Exercise 7c */
+
+/* #region: Exercise 7d */
+.ex7d-input {
+  width: 200px;
+  height: 14px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  padding: 5px 10px;
+}
+/* #endregion: Exercise 7d */
+
+/* #region: Exercise 7e */
+.ex7e-input {
+  width: 350px;
+  height: 14px;
+  border-radius: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  padding: 5px 10px;
+}
+/* #endregion: Exercise 7e */
+
+/* #region: Exercise 7f */
+.ex7f-text-01 {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 4px;
+  width: 330px;
+}
+
+.ex7f-input {
+  width: 330px;
+  height: 20px;
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+.ex7f-text-02 {
+  font-size: 14px;
+  color: gray;
+  width: 330px;
+}
+
+.ex7f-button {
+  width: 330px;
+  height: 40px;
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.ex7f-button:hover {
+  background-color: rgb(6, 64, 122);
+}
+/* #endregion: Exercise 7f */
+
+/* #region: Exercise 7g */
+.ex7g-img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 500px;
+  vertical-align: middle;
+}
+
+.ex7g-input {
+  width: 250px;
+  height: 20px;
+  border: none;
+  vertical-align: middle;
+}
+
+.ex7g-button {
+  background-color: rgb(29, 161, 242);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.15s, box-shadow 0.15s;
+  border-radius: 30px;
+  width: 60px;
+  height: 30px;
+}
+.ex7g-button:hover {
+  background-color: rgb(26, 145, 218);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+/* #endregion: Exercise 7g */
