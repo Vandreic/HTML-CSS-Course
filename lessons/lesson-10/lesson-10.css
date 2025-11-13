@@ -1,0 +1,108 @@
+/* #region: Global Styles */
+p,
+button {
+  font-family: Arial;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+/* #endregion: Global Styles */
+
+/* #region: Exercise 10 Images */
+.ex10a-img,
+.ex10b-img,
+.ex10c-img,
+.ex10d-img {
+  width: 1000px;
+}
+/* #endregion Exercise 10 Images */
+
+/* #region: Exercise Done Text */
+.exercise-done {
+  font-family: "Montserrat", system-ui;
+  font-size: 18px;
+  font-weight: 700;
+  color: green;
+}
+/* #endregion: Exercise Done Text */
+
+/* #region: Exercise 10e */
+.ex10e-div-friend-suggestion-01,
+.ex10e-div-friend-suggestion-03,
+.ex10e-div-friend-suggestion-02 {
+  width: fit-content;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+.ex10e-img-01-01,
+.ex10e-img-02-01,
+.ex10e-img-03-01 {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 8px;
+}
+
+.ex10e-div-profile-name-01,
+.ex10e-div-profile-name-02,
+.ex10e-div-profile-name-03 {
+  margin-bottom: 8px;
+  margin-left: 4px;
+}
+
+.ex10e-text-01-01,
+.ex10e-text-02-01,
+.ex10e-text-03-01 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.ex10e-mutal-friends-profile-picture-01,
+.ex10e-mutal-friends-counter-01,
+.ex10e-mutal-friends-profile-picture-02,
+.ex10e-mutal-friends-counter-02,
+.ex10e-mutal-friends-profile-picture-03,
+.ex10e-mutal-friends-counter-03 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 8px;
+}
+
+.ex10e-img-01-02,
+.ex10e-img-02-02,
+.ex10e-img-03-02 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  margin-left: 4px;
+}
+
+.ex10e-text-01-02,
+.ex10e-text-02-02,
+.ex10e-text-03-02 {
+  color: gray;
+  margin-left: 4px;
+}
+
+.ex10e-button-01,
+.ex10e-button-02,
+.ex10e-button-03 {
+  padding: 6px 14px;
+  margin: 4px 4px 10px 4px; /* top right bottom left */
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.ex10e-button-01:hover,
+.ex10e-button-02:hover,
+.ex10e-button-03:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+/* #endregion: Exercise 10e */

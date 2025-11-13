@@ -13,8 +13,8 @@ The website is hosted on GitHub Pages. Click [here](https://vandreic.github.io/H
 - [x] 6. The HTML Structure
 - [x] 7. Images and Text Boxes
 - [x] 8. CSS Display Property
-- [ ] 9. The div Element
-- [ ] 10. Nested Layouts Technique
+- [x] 9. The div Element
+- [x] 10. Nested Layouts Technique
 - [ ] 11. CSS Grid
 - [ ] 12. Flexbox
 - [ ] 13. Nested Flexbox

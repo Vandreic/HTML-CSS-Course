@@ -1,0 +1,248 @@
+/* #region: Global Styles */
+p,
+button,
+input {
+  font-family: Arial;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+/* #endregion: Global Styles */
+
+/* #region: Exercise 9a */
+.ex9a-div {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+/* #endregion: Exercise 9a */
+
+/* #region: Exercise 9b */
+.ex9b-div {
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+  background-color: green;
+}
+/* #endregion: Exercise 9b */
+
+/* #region: Exercise 9c */
+.ex9c-div {
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  width: 250px;
+  padding: 10px 20px;
+}
+
+.ex9c-text {
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+
+.ex9c-button-01,
+.ex9c-button-02 {
+  font-size: 14px;
+  width: 50px;
+  height: 30px;
+  cursor: pointer;
+  margin: 10px 0px;
+}
+/* #endregion: Exercise 9c */
+
+/* #region: Exercise 9d */
+.ex9d-div {
+  width: 330px;
+  background-color: rgb(33, 33, 33);
+  padding: 16px;
+}
+
+.ex9d-text-01 {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 12px;
+}
+
+.ex9d-text-02 {
+  color: gray;
+}
+/* #endregion: Exercise 9d */
+
+/* #region: Exercise 9e */
+.ex9e-div {
+  display: inline-block;
+  border-radius: 6px;
+  padding: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.ex9e-img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 500px;
+  vertical-align: middle;
+}
+
+.ex9e-input {
+  width: 250px;
+  height: 20px;
+  border: none;
+  vertical-align: middle;
+}
+
+.ex9e-button {
+  background-color: rgb(29, 161, 242);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.15s, box-shadow 0.15s;
+  border-radius: 30px;
+  width: 60px;
+  height: 30px;
+}
+.ex9e-button:hover {
+  background-color: rgb(26, 145, 218);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+/* #endregion: Exercise 9e */
+
+/* #region: Exercise 9f */
+.ex9f-div {
+  width: 120px;
+  height: auto;
+  display: inline-block;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.ex9f-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.ex9f-text-01 {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  margin: 0;
+  padding-top: 4px;
+  padding-left: 4px;
+}
+
+.ex9f-text-02 {
+  color: gray;
+  padding-top: 4px;
+  padding-left: 4px;
+}
+
+.ex9f-button {
+  padding: 6px 14px;
+  margin: 4px 4px 10px 4px; /* top right bottom left */
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.ex9f-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+/* #endregion: Exercise 9f */
+
+/* #region: Exercise 9g */
+.ex9g-div-01,
+.ex9g-div-02,
+.ex9g-div-03 {
+  width: 120px;
+  height: auto;
+  display: inline-block;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  margin: 0px 8px;
+}
+
+.ex9g-img-01,
+.ex9g-img-02,
+.ex9g-img-03 {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.ex9g-text-01-01,
+.ex9g-text-02-01,
+.ex9g-text-03-01 {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  margin: 0;
+  padding-top: 4px;
+  padding-left: 4px;
+}
+
+.ex9g-text-01-02,
+.ex9g-text-02-02,
+.ex9g-text-03-02 {
+  color: gray;
+  padding-top: 4px;
+  padding-left: 4px;
+}
+
+.ex9g-button-01,
+.ex9g-button-02,
+.ex9g-button-03 {
+  padding: 6px 14px;
+  margin: 4px 4px 10px 4px; /* top right bottom left */
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.ex9g-button-01:hover,
+.ex9g-button-02:hover,
+.ex9g-button-03:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+/* #endregion: Exercise 9g */
+
+/* #region: Exercise 9h */
+.ex9h-div-01,
+.ex9h-div-02,
+.ex9h-div-03 {
+  text-align: center;
+}
+
+.ex9h-img {
+  width: 200px;
+}
+
+.ex9h-input {
+  width: 400px;
+  border-radius: 30px;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0px;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+.ex9h-buton-01,
+.ex9h-buton-02 {
+  margin: 10px 10px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.ex9h-buton-01:hover,
+.ex9h-buton-02:hover {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+/* #endregion: Exercise 9h */
