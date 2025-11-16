@@ -1,0 +1,152 @@
+/* #region: Global Styles */
+p,
+button {
+  font-family: Arial;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+/* #endregion: Global Styles */
+
+/* #region: Exercise 11a */
+.ex11a-div-grid {
+  display: grid;
+  grid-template-columns: 200px 75px;
+}
+
+.ex11a-div-01 {
+  background-color: lightblue;
+  color: black;
+}
+
+.ex11a-div-02 {
+  background-color: lightpink;
+  color: black;
+}
+/* #endregion Exercise 11a */
+
+/* #region: Exercise 11b */
+.ex11b-div-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+}
+
+.ex11b-div-01,
+.ex11b-div-02,
+.ex11b-div-03 {
+  color: black;
+}
+
+.ex11b-div-01,
+.ex11b-div-03 {
+  background-color: lightblue;
+}
+
+.ex11b-div-02 {
+  background-color: lightpink;
+}
+/* #endregion Exercise 11b */
+
+/* #region: Exercise 11c */
+.ex11c-div-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+
+.ex11c-grid-col-01,
+.ex11c-grid-col-02,
+.ex11c-grid-col-03,
+.ex11c-grid-col-04,
+.ex11c-grid-col-05,
+.ex11c-grid-col-06,
+.ex11c-grid-col-07,
+.ex11c-grid-col-08 {
+  background-color: lightpink;
+}
+/* #endregion Exercise 11c */
+
+/* #region: Exercise 11d */
+.ex11d-friends-grid {
+  display: grid;
+  grid-template-columns: 180px 180px 180px;
+  column-gap: 15px;
+  row-gap: 20px;
+}
+
+.ex11d-friend-card-01,
+.ex11d-friend-card-02,
+.ex11d-friend-card-03 {
+  width: 100%;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+.ex11d-friend-image-01,
+.ex11d-friend-image-02,
+.ex11d-friend-image-03 {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.ex11d-friend-info-01,
+.ex11d-friend-info-02,
+.ex11d-friend-info-03 {
+  padding: 4px;
+}
+
+.ex11d-friend-name-01,
+.ex11d-friend-name-02,
+.ex11d-friend-name-03 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.ex11d-friend-profile-info-01,
+.ex11d-friend-profile-info-02,
+.ex11d-friend-profile-info-03 {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  align-items: center;
+  column-gap: 8px;
+  margin: 8px 0px;
+}
+
+.ex11d-friend-profile-image-01,
+.ex11d-friend-profile-image-02,
+.ex11d-friend-profile-image-03 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.ex11d-friend-mutal-01,
+.ex11d-friend-mutal-02,
+.ex11d-friend-mutal-03 {
+  font-size: 14px;
+  color: gray;
+}
+
+.ex11d-add-friend-button-01,
+.ex11d-add-friend-button-02,
+.ex11d-add-friend-button-03 {
+  padding: 6px 14px;
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  margin: 6px 0px 10px 0px; /* top right bottom left */
+}
+
+.ex11d-add-friend-button-01:hover,
+.ex11d-add-friend-button-02:hover,
+.ex11d-add-friend-button-03:hover {
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+}
+/* #endregion Exercise 11d */

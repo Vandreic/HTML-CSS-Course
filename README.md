@@ -15,8 +15,8 @@ The website is hosted on GitHub Pages. Click [here](https://vandreic.github.io/H
 - [x] 8. CSS Display Property
 - [x] 9. The div Element
 - [x] 10. Nested Layouts Technique
-- [ ] 11. CSS Grid
-- [ ] 12. Flexbox
+- [x] 11. CSS Grid
+- [x] 12. Flexbox
 - [ ] 13. Nested Flexbox
 - [ ] 14. CSS Position
 - [ ] 15. Position Absolute and Relative
